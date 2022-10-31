@@ -1,5 +1,5 @@
 # COMPLEX ML
-https://cordis.europa.eu/project/id/896004
+``Machine learning and the physics of complex and disordered systems" or [COMPLEX ML](https://cordis.europa.eu/project/id/896004) is an European Union funded project, part of the Horizon 2020 Marie Sklodowska-Curie Actions (MSCA), involving researchers at the University of Zurich, Switzerland and the University of Chicago, USA.
 
 # Overview
 
