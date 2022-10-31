@@ -8,6 +8,8 @@ As such their improved understanding is of fundamental importance and benefit to
 
 The key objective of the interdisciplinary COMPLEX ML project is to construct new analytical and computational tools helping to develop theoretical descriptions of complex systems. This is achieved by taking the suggestive "compression" metaphor seriously. We introduce a new approach to constructing effective theories based on the theory of data compression, originating in computer science.  The computational progress is based on close connections with developments in the field of Machine Learning (ML), which over the course of the past ten years have revolutionised many areas of engineering. In the COMPLEX ML project we use such techniques to automate certain aspects of the scientific discovery process, and conversely, we aim to improve to improve certain aspects of ML algorithms themselves, using the established connections to complex systems physics. 
 
+The main scientific outcomes of COMPLEX ML so far are contained in the publications listed below, and the RSMI-NE code package.
+
 
 # RSMI-NE
 
@@ -16,13 +18,12 @@ The key objective of the interdisciplinary COMPLEX ML project is to construct ne
 `rsmine` is a Python package, implemented using Tensorflow, for optimising coarse-graining rules for real-space renormalisation group by maximising real-space mutual information. 
 
 - [Overview](#overview)
-- [System requirements](#system-requirements)
 - [Installation](#installation-guide)
 - [Citation](#citation)
 
 ## Overview
 
-`rsmine` employs state-of-the-art results for estimating mutual information (MI) by maximising its lower-bounds parametrised by deep neural networks [Poole et al. (2019), [arXiv:1905.06922v1](https://arxiv.org/abs/1905.06922)]. This allows it to overcome the severe limitations of the initial proposals for constructing real-space RG transformations by MI-maximization in [M. Koch-Janusz and Z. Ringel, [Nature Phys. 14, 578-582 (2018)](https://doi.org/10.1038/s41567-018-0081-4), P.M. Lenggenhager et al., [Phys.Rev. X 10, 011037 (2020)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.10.011037)], and to reconstruct the relevant operators of the theory, as detailed in the manuscripts accompanying this code [D.E. Gökmen, Z. Ringel, S.D. Huber and M. Koch-Janusz, [Phys. Rev. Lett. **127**, 240603 (2021)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.240603) and [Phys. Rev. E **104**, 064106 (2021)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.064106)].
+`rsmine` employs state-of-the-art results for estimating mutual information (MI) by maximising its lower-bounds parametrised by deep neural networks [Poole et al. (2019), [arXiv:1905.06922v1](https://arxiv.org/abs/1905.06922)]. This allows it to overcome the severe limitations of the initial proposals for constructing real-space RG transformations by MI-maximization in [M. Koch-Janusz and Z. Ringel, [Nature Phys. 14, 578-582 (2018)](https://doi.org/10.1038/s41567-018-0081-4), P.M. Lenggenhager et al., [Phys.Rev. X 10, 011037 (2020)](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.10.011037)], and to reconstruct the relevant operators of the theory, as detailed in the manuscripts accompanying this code [D.E. Gökmen, Z. Ringel, S.D. Huber and M. Koch-Janusz, [Phys. Rev. Lett. **127**, 240603 (2021)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.240603) and [Phys. Rev. E **104**, 064106 (2021)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.064106)]. The formal equivalence to the Information Bottlneck approach of lossy compression theory are outlined in our theoretical work [Phys. Rev. Lett. ***126***, 240601](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.240601). 
 
 
 ## Installation
@@ -55,7 +56,7 @@ Jupyter notebooks demonstrating the basic usage in simple examples are provided 
 
 ## Citation
 
-If you use RSMI-NE in your work, please cite our publications [Phys. Rev. Lett. **127**, 240603 (2021)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.240603) and [Phys. Rev. E **104**, 064106 (2021)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.064106):
+If you use RSMI-NE in your work, please cite our publications [Phys. Rev. Lett. **127**, 240603 (2021)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.240603), [Phys. Rev. E **104**, 064106 (2021)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.064106), and the theoretical work [Phys. Rev. Lett. ***126***, 240601](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.240601):
 
 ```latex
 @article{PhysRevLett.127.240603,
@@ -86,5 +87,20 @@ If you use RSMI-NE in your work, please cite our publications [Phys. Rev. Lett. 
   publisher = {American Physical Society},
   doi = {10.1103/PhysRevE.104.064106},
   url = {https://link.aps.org/doi/10.1103/PhysRevE.104.064106}
+}
+
+@article{PhysRevLett.126.240601,
+  title = {Relevance in the Renormalization Group and in Information Theory},
+  author = {Gordon, Amit and Banerjee, Aditya and Koch-Janusz, Maciej and Ringel, Zohar},
+  journal = {Phys. Rev. Lett.},
+  volume = {126},
+  issue = {24},
+  pages = {240601},
+  numpages = {7},
+  year = {2021},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.126.240601},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.126.240601}
 }
 ```
