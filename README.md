@@ -1,4 +1,7 @@
 # COMPLEX ML
+https://cordis.europa.eu/project/id/896004
+
+# Overview
 
 Physicists aim to derive a description of complex phenomena, often involving astronomical numbers of interacting electrons, atoms, molecules or other constituents in terms of only a handful of relevant quantities. In doing so they, in effect, "compress" the full description of the system into a succinct theory, providing an understanding of the phenomenon and its properties and possessing predictive power. Surprisingly, a systematic path towards that goal exists, technically known as the Renormalization Group. It is, however, very difficult to perform it in practice, especially for disordered or irregular systems, which are ubiquitous in nature. Examples include quasicrystals, cell assemblies in human brain or interactions between participants of a social network and form a part of what is collectively referred to as complex systems. Complex systems thus comprise a vast class of phenomena from atomistic and chemical scales, through biology, all the way to social interactions and properties of industrial energy networks.
 As such their improved understanding is of fundamental importance and benefit to the society.
